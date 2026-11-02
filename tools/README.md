@@ -13,6 +13,7 @@ Sans dépendance, Node 20 ou plus. Les commandes se lancent depuis le dossier du
 | `event.mjs` | animation | L'événement scripté du Develop : `list`, `card`, `apply`, `undo` |
 | `demo-sans-contexte.mjs` | animation | Démo d'ouverture : le même prompt, sans puis avec le contexte du Nexus |
 | `repetition/simuler.mjs` | animation | Répétition en solo : joue les trois autres squads (publications v1, verdicts, réalignement) sur un Nexus de répétition |
+| `installation/installer-prerequis.sh` · `.ps1` | squads | Installation en une ligne, sans droits admin (macOS · Windows) : prérequis, clone du Nexus et du starter de la squad. Hébergés ici car le dépôt du kit est privé |
 
 Réglages (horaires, créneaux, jalons communs, prompts de démo) : `hackathon.config.json`. Guide d'animation : `animation/ecran-commun.md` dans le dépôt du kit.
 
