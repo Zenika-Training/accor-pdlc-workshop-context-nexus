@@ -3,14 +3,14 @@
 > Simulation du Context Nexus de production (bootstrap le 27/10) par un simple dépôt Git.
 > Les quatre squads lisent **tout** le dépôt et n'écrivent **que** dans leur dossier `teams/<squad>/`.
 >
-> Kit de démarrage des squads : [Zenika-dev/ai4d-hackathon-kit](https://github.com/Zenika-dev/ai4d-hackathon-kit).
+> Kit de démarrage des squads : [Zenika-Training/accor-pdlc-workshop-kit](https://github.com/Zenika-Training/accor-pdlc-workshop-kit).
 > Use case fictif (Vélora Hôtels), données 100 % synthétiques.
 
 ## Démarrer
 
 ```bash
 mkdir -p ~/hackathon && cd ~/hackathon
-git clone https://github.com/Zenika-dev/ai4d-hackathon-context-nexus.git context-nexus
+git clone https://github.com/Zenika-Training/accor-pdlc-workshop-context-nexus.git context-nexus
 cd context-nexus
 node tools/context-assemble.mjs --squad <squad> --out ../starter-<squad>/.context/brief.md
 ```
